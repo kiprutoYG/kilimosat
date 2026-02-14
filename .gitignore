@@ -2,7 +2,17 @@
 .env
 /server/.env
 #ignore node modules
-/node_modules
+node_modules/
+**/node_modules/
 #ignore build files/build
 /build
 #ignore logs
+logs/
+*.log
+#ignore database files
+*.db
+#ignore coverage reports
+coverage/
+#ignore IDE files
+.idea/
+.vscode/
